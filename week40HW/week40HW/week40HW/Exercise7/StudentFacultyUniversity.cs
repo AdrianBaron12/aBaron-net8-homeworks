@@ -72,10 +72,10 @@ namespace Week40.Faculty1
 
     public class Faculty
     {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public int employeeId { get; set; }
-        List<string> subjectsTaught { get; set; }
+        public string firstName;
+        public string lastName;         
+        public int employeeId;
+        List<string> subjectsTaught;
 
         public Faculty(string firstname, string lastname, int employeeid, List<string> subjectstaught)
         {
@@ -98,9 +98,9 @@ namespace Week40.Faculty1
 
     public class University
     {
-        public string Name { get; set; }
-        public List<Student> Students { get; set; }
-        public List<Faculty> Faculties { get; set; }
+        public string Name;
+        public List<Student> Students;
+        public List<Faculty> Faculties;
 
         public University(string name)
         {

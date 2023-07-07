@@ -27,15 +27,11 @@ namespace Week40.Calculator1
 
         public int Divide(int x, int y)
         {
-            try
+            if (y == 0)
             {
-                return x / y;
+                throw new DivideByZeroException();
             }
-            catch (DivideByZeroException e)
-            {
-                Console.WriteLine(e.Message);
-                throw e;
-            }
+            return x / y;
         }
 
         public double Power(double x, double y)
