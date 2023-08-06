@@ -1,0 +1,23 @@
+﻿using Wek70.Exercise1;
+using Wek70.Exercise10;
+using Wek70.Exercise11;
+using Wek70.Exercise2;
+using Wek70.Exercise3;
+using Wek70.Exercise4;
+using Wek70.Exercise5;
+using Wek70.Exercise6;
+using Wek70.Exercise7;
+using Wek70.Exercise8;
+using Wek70.Exercise9;
+
+//InvalidDate.Run();
+//BlankName.Run();
+//ExceptionsLists.Run();
+//IOExceptions.Run();
+//FullDateString.Run();
+//ConversionToBinary.Run();
+//LINQSumOfSquaresOfEvenNumbers.Run();
+//OriginalSquareList.Run();
+//AscendingLINQ.Run();
+//AverageCategory.Run();
+AverageCategoryPhase2.Run();
